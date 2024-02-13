@@ -37,4 +37,4 @@ My ideal work environment is one that fosters innovation and welcomes new ideas 
 ---
 
 ## Plenty More to See
-Well, I think I’ve rambled on long enough about myself. If you’ve made it all the way through, I sincerely taking the time to get to know me better. If you’re still eager to explore more of what I’ve been working on, don’t hesitate to check out some of my project pages that are listed in my navigation bar!
+Well, I think I’ve rambled on long enough about myself. If you’ve made it all the way through, I sincerely appreciate you taking the time to get to know me better. If you’re still eager to explore more of what I’ve been working on, don’t hesitate to check out some of my project pages that are listed in my navigation bar!
