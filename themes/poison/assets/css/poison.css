@@ -277,6 +277,7 @@ tbody tr:nth-child(odd) th {
     overflow-y: auto;
     line-height: 1.4em;
     max-height: 85%;
+    margin-right: 100px;
 }
 .article-toc .toc-wrapper{
     position: fixed;
@@ -317,7 +318,6 @@ tbody tr:nth-child(odd) th {
     .article-toc {
         display: block;
         min-width: 275px;
-        margin-right: 100px;
     }
 }
 

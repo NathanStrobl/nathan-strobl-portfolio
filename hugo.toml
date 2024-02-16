@@ -26,7 +26,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         {Name = "RIT Auxiliary Services Portal", URL = "/ritasp", HasChildren = true, Limit = 5},
         {Name = "CartCockpit", URL = "/cartcockpit/", HasChildren = true, Limit = 5}
     ]
-    email_url = "mailto:nathanstrobl34@gmail.com"
+    email_url = "mailto:nas4635@rit.edu"
     github_url = "https://github.com/NathanStrobl"
     resume_url = "/resume.pdf"
     linkedin_url = "https://www.linkedin.com/in/nathan-strobl-262633288/"
