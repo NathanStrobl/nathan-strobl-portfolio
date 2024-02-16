@@ -80,4 +80,4 @@ The menu scheduling utility within our online ordering system’s backend interf
 ---
 
 ## Project Reflection
-I feel strongly that undertaking this project proved beneficial for both me and my colleagues at Auxiliary Services Tech, for it marked my first foray into web development and server setup, as well as provided my coworkers with tools that made their jobs more streamlined. I’m pleased with the outcome of this endeavor and am eager to see what else I can accomplish in the realm of web development.
+I feel strongly that undertaking this project proved beneficial for both me and my colleagues at Auxiliary Services Tech, for it marked my first foray into web development and server setup, as well as provided my coworkers with tools that made their jobs more streamlined. I’m pleased with the outcome of this endeavor and am eager to see what else I can accomplish in the realm of web development!
