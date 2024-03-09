@@ -29,7 +29,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     email_url = "mailto:nas4635@rit.edu"
     github_url = "https://github.com/NathanStrobl"
     resume_url = "/resume.pdf"
-    linkedin_url = "https://www.linkedin.com/in/nathan-strobl-262633288/"
+    linkedin_url = "https://www.linkedin.com/in/NathanStrobl"
     
 
     # Hex colors for your sidebar.
