@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hi, I&#39;m Nathan! on Nathan Strobl</title>
-    <link>/</link>
+    <link>/nas4635/</link>
     <description>Recent content in Hi, I&#39;m Nathan! on Nathan Strobl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/nas4635/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project Overview</title>
-      <link>/ritasp/overview/</link>
+      <link>/nas4635/ritasp/overview/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/ritasp/overview/</guid>
+      <guid>/nas4635/ritasp/overview/</guid>
       <description>TL;DR This project was a collaborative effort with my colleagues aimed at streamlining some of the monotonous tasks we encounter while working as technicians for RIT Auxiliary Services Tech. While my coworkers focused on reverse engineering APIs for the various services we use and creating Python scripts to communicate with them, I concentrated on leveraging React to design a simple and effective UI, linking their Python scripts to this UI using Flask, and hosting the web application on my server.</description>
     </item>
     <item>
       <title>Project Overview</title>
-      <link>/cartcockpit/overview/</link>
+      <link>/nas4635/cartcockpit/overview/</link>
       <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/cartcockpit/overview/</guid>
+      <guid>/nas4635/cartcockpit/overview/</guid>
       <description>TL;DR CartCockpit is an Arduino sketch that transforms an Arduino Uno/Nano into a digital dashboard for golf carts. Some of this program’s notable features include: a speedometer, an odometer, a trip computer, a battery monitoring system that tracks the state and health of the cart’s batteries, automatic lighting, and a smart range estimation system that learns how the cart is driven and adjusts its estimates over time. I started this project because I have always been interested in user interfaces and car dashboards, and I wanted to take a stab at developing one of my own.</description>
     </item>
     <item>
       <title>GlyphMaker</title>
-      <link>/cartcockpit/glyphmaker/</link>
+      <link>/nas4635/cartcockpit/glyphmaker/</link>
       <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>/cartcockpit/glyphmaker/</guid>
+      <guid>/nas4635/cartcockpit/glyphmaker/</guid>
       <description>Background Creating custom fonts and glyphs for use on Arduino projects using the Adafruit GFX library can be tedious, requiring many hex codes to be manually calculated and imported into a C header file in a very specific way; in the interest in not wasting the time of my readers, I won’t be delving into all of the specifics here, but this article from Adafruit is a great resource if you are interested in learning more about this process.</description>
     </item>
   </channel>
