@@ -1,5 +1,5 @@
 title = 'Nathan Strobl'
-baseURL = "/nas4635"
+baseURL = "https://people.rit.edu/nas4635/"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
