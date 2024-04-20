@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cartcockpit on Nathan Strobl</title>
+    <link>/cartcockpit/</link>
+    <description>Recent content in Cartcockpit on Nathan Strobl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/cartcockpit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Overview</title>
+      <link>/cartcockpit/overview/</link>
+      <pubDate>Sun, 06 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/cartcockpit/overview/</guid>
+      <description>TL;DR CartCockpit is an Arduino sketch that transforms an Arduino Uno/Nano into a digital dashboard for golf carts. Some of this program’s notable features include: a speedometer, an odometer, a trip computer, a battery monitoring system that tracks the state and health of the cart’s batteries, automatic lighting, and a smart range estimation system that learns how the cart is driven and adjusts its estimates over time. I started this project because I have always been interested in user interfaces and car dashboards, and I wanted to take a stab at developing one of my own.</description>
+    </item>
+    <item>
+      <title>GlyphMaker</title>
+      <link>/cartcockpit/glyphmaker/</link>
+      <pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/cartcockpit/glyphmaker/</guid>
+      <description>Background Creating custom fonts and glyphs for use on Arduino projects using the Adafruit GFX library can be tedious, requiring many hex codes to be manually calculated and imported into a C header file in a very specific way; in the interest in not wasting the time of my readers, I won’t be delving into all of the specifics here, but this article from Adafruit is a great resource if you are interested in learning more about this process.</description>
+    </item>
+  </channel>
+</rss>
