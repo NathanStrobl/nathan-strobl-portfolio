@@ -16,7 +16,7 @@ Creating custom fonts and glyphs for use on Arduino projects using the Adafruit 
 ## Using GlyphMaker
 ### Starting the Application
 To start GlyphMaker, simply start the JAR file provided in the /out/artifacts/GlyphMaker_jar directory.
-<img src="/media/glyphmaker/jar-file.png">
+<img src="/media/glyphmaker/jar-file.png" style="max-width: 700px">
 
 ### Generating the Grid
 The application starts by prompting the user to enter the desired size of the glyph; note that the column count must be a multiple of eight due, for one hex code represents eight pixels (this does not apply to rows). Once a size has been entered, press the 'Generate Screen' button, and a grid of blank pixels will be generated; the user can then plot their glyph pixel by pixel. 
