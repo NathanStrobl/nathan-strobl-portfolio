@@ -24,7 +24,7 @@ When making this project, I tried to incorporate much of the functionality prese
 
 ### Speedometer & odometer
 Assuming a hall effect sensor and a ring of magnets similar to the one shown in the photo is present, the Arduino can measure and display a speed reading while also keeping track of the cart’s total distance traveled. 
-<img src="/media/cartcockpit/ring-of-magnets.png" style="max-width: 700px">
+<img src="/media/cartcockpit/ring-of-magnets.png">
 
 Setting the tire size and other cart-specific variables is done using [the CartCockpitInit program](#initializing-the-software).
 
@@ -45,7 +45,7 @@ Unsurprisingly, trying to create a project of this complexity with the simplisti
 ### Arduino's limited program space
 Anyone familiar with the Arduino Uno and Nano will know that their program space is extremely limited, with both only having a measly 32KB (with the Nano actually having less because it uses 1.5KB of that space for its bootloader). With the amount of functionality being crammed into this project, it wasn’t surprising that I had already begun to run out of space halfway through the project:
 <br></br>
-<img src="/media/cartcockpit/sketch-size-bad.png" style="max-width: 700px">
+<img src="/media/cartcockpit/sketch-size-bad.png">
 
 To wrangle the ever-increasing size of this program, I took some time and optimized the code; some of the strategies I used during this optimization are: 
 
@@ -57,19 +57,19 @@ To wrangle the ever-increasing size of this program, I took some time and optimi
 
 Here are the results of these optimizations: 
 <br></br>
-<img src="/media/cartcockpit/sketch-size-good.png" style="max-width: 700px">
+<img src="/media/cartcockpit/sketch-size-good.png">
 Much better.
 
 ### Custom glyphs
 By taking a look at the [gallery below](#gallery), you will notice that there are quite a few glyphs throughout the user interface of CartCockpit; all of these glyphs were designed by me, with the help of a small JavaFX project that I wrote to assist me with implementing them in the Arduino’s code. You can read more about it [here](/cartcockpit/glyphmaker). 
 >A screenshot showing the 'service battery' glyph being created with GlyphMaker.
 <br></br>
-><img src="/media/cartcockpit/glyphmaker-preview.jpg" style="max-width: 700px">
+><img src="/media/cartcockpit/glyphmaker-preview.jpg">
 
 ### Support for multiple unit systems
 When programming CartCockpit, I decided that it would be a fundamentally metric device: distances are measured in meters, temperatures are measured in Centigrade, and so on. I did this for two reasons: understanding and working between smaller and larger distances is easier in metric; and while I never expected this to be used anywhere but the United States (or anywhere outside of my house for that matter), I still wanted to ensure that CartCockpit was flexible enough to do so. To achieve this support for multiple systems without having to rewrite all of the code, I created two header files – one for metric and one for imperial – that contain conversion data for both unit systems:
 
-<img src="/media/cartcockpit/units-header-files.png" style="max-width: 700px">
+<img src="/media/cartcockpit/units-header-files.png">
 
 To determine which unit system is used, the user can uncomment the include directive that applies to the desired unit system in the CartCockpit.ino file:
 <pre>
@@ -84,7 +84,7 @@ You can see this working in [the gallery](#gallery), where there are two pieces 
 
 ### Initializing the software
 To allow CartCockpit to be compatible with all styles of golf cart, I leveraged the Arduino’s EEPROM to store some values that are specific to each cart. To initialize an Arduino with this data, I wrote another small program called CartCockpitInit; setting the values to be written to the EEPROM is done by editing the CartCockpitInit.h file, as shown below:
-<img src="/media/cartcockpit/cartcockpitinit.png" style="max-width: 700px">
+<img src="/media/cartcockpit/cartcockpitinit.png">
 
 In this file, cart-specific values like the tire size and serial number can be defined; in addition to this, the user can customize the measurement characteristics of CartCockpit by altering the number of magnets present in the speed detection ring and frequency of its speed measurements. Lastly, starting values for its odometer and expected range per charge can be set in the case of this device being installed in a used cart. When the user is ready to write these values, they simply upload the CartCockpitInit.ino file to the Arduino, and then re-upload the CartCockpit software.
 
@@ -95,7 +95,7 @@ Unfortunately, I did not take a lot of pictures of CartCockpit while I was devel
 ### Screenshot of 'Trip Data' screen
 >The temperature value is displaying the absurd value of 598ºF because the TMP35 sensor was not connected when this photo was taken.
 
-<img src="/media/cartcockpit/cartcockpit.jpeg" style="max-width: 700px">
+<img src="/media/cartcockpit/cartcockpit.jpeg">
 
 ### Video showing all screens
 >Some of the values are a bit erratic because the potentiometer that simulates battery voltage was not connected when this video was taken; during normal usage these values would update in a smoother, more stable manner.
