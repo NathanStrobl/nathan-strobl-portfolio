@@ -1,11 +1,12 @@
 +++
-title = 'GlyphMaker'
-date = 2023-04-16
-draft = false
+title = 'Project Overview'
+date = 2024-09-17
+draft = true
 +++
 <div class="technologies">
-	<a title="Java"><img src="/technologies-logos/java.png"></a>
-	<a title="JavaFX"><img src="/technologies-logos/javafx.png"></a>
+	<a title="Linux"><img src="/technologies-logos/linux.png"></a>
+	<a title="Docker"><img src="/technologies-logos/docker.png"></a>
+	<a title="Caddy"><img src="/technologies-logos/caddy.png"></a>
 </div>
 
 ## Background

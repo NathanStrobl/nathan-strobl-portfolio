@@ -8,9 +8,6 @@ draft = false
 	<a title="ReactJS"><img src="/technologies-logos/reactjs.png"></a>
 	<a title="Python"><img src="/technologies-logos/python.png"></a>
 	<a title="Flask"><img src="/technologies-logos/flask.png"></a>
-	<a title="Linux"><img src="/technologies-logos/linux.png"></a>
-	<a title="Docker"><img src="/technologies-logos/docker.png"></a>
-	<a title="Caddy"><img src="/technologies-logos/caddy.png"></a>
 </div>
 
 ## TL;DR

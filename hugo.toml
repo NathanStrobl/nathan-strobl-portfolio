@@ -22,6 +22,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
+        {Name = "ACA Mini Audio Amplifier", URL = "/acamini/", HasChildren = true, Limit = 5},
+        {Name = "GlyphMaker", URL = "/glyphmaker/", HasChildren = true, Limit = 5},
+        {Name = "Self-Hosting", URL = "/selfhosting/", HasChildren = true, Limit = 5},
         {Name = "RIT Auxiliary Services Portal", URL = "/ritasp", HasChildren = true, Limit = 5},
         {Name = "CartCockpit", URL = "/cartcockpit/", HasChildren = true, Limit = 5}
     ]
