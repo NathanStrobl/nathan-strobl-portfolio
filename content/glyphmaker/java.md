@@ -16,32 +16,32 @@ Creating custom fonts and glyphs for use on Arduino projects using the Adafruit 
 ## Using GlyphMaker
 ### Starting the Application
 To start GlyphMaker, simply start the JAR file provided in the /out/artifacts/GlyphMaker_jar directory.
-<img src="/media/glyphmaker/jar-file.png">
+<img src="/media/glyphmaker/java/jar-file.png">
 
 ### Generating the Grid
 The application starts by prompting the user to enter the desired size of the glyph; note that the column count must be a multiple of eight due, for one hex code represents eight pixels (this does not apply to rows). Once a size has been entered, press the 'Generate Screen' button, and a grid of blank pixels will be generated; the user can then plot their glyph pixel by pixel. 
 <div class="image-grid">
-	<img src="/media/glyphmaker/glyph-size.png">
-	<img src="/media/glyphmaker/blank-grid.png">
+	<img src="/media/glyphmaker/java/glyph-size.png">
+	<img src="/media/glyphmaker/java/blank-grid.png">
 </div>
 
 ### Converting to Hexadecimal
 After the drawing is complete, the hitting the 'Convert to Hexadecimal' button will generate the hex codes in a new window.
 <div class="image-grid">
-	<img src="/media/glyphmaker/service-battery-grid.png">
-	<img src="/media/glyphmaker/service-battery-hex.png">
+	<img src="/media/glyphmaker/java/service-battery-grid.png">
+	<img src="/media/glyphmaker/java/service-battery-hex.png">
 </div>
 
 ### Getting the Glyph onto the Arduino
 The user can then copy these hex codes and place them in a font header file. 
 <div class="image-grid">
-	<img src="/media/glyphmaker/service-battery-header-hex.png">
-	<img src="/media/glyphmaker/service-battery-header-def.png">
+	<img src="/media/glyphmaker/java/service-battery-header-hex.png">
+	<img src="/media/glyphmaker/java/service-battery-header-def.png">
 </div>
 
 The font containing the glyph can now be included in the Arduino program and displayed on the Arduino.
 <br></br>
-<img src="/media/glyphmaker/on-arduino.jpg">
+<img src="/media/glyphmaker/java/on-arduino.jpg">
 <br></br>
 Voila!
 

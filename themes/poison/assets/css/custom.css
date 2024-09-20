@@ -29,6 +29,6 @@ div.image-grid {
 	max-width: 95%;
 }
 
-img {
+img, video {
 	max-width: 100% !important;
 }
