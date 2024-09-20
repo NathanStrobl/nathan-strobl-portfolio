@@ -1,6 +1,6 @@
 +++
 title = 'Web Rewrite'
-date = 2024-09-18
+date = 2024-09-14
 draft = false
 +++
 <div class="technologies">
