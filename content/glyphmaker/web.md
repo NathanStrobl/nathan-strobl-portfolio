@@ -1,6 +1,6 @@
 +++
 title = 'Web Rewrite'
-date = 2024-09-14
+date = 2024-09-20
 draft = false
 +++
 <div class="technologies">
@@ -69,7 +69,30 @@ With the new font paradigm and ability to assign names to glyphs in this version
 ---
 
 ## The Result
-If you have a use for this tool, or just simply want to take a look at it, it can be accessed by visiting https://glyphmaker.nathan-strobl.org. For those who want to look without interacting with it, I will be providing some screenshots of me using it for another Arduino and Adafruit GFX-based project soon!
+If you have a use for this tool, or just simply want to take a look at it, it can be accessed by visiting https://glyphmaker.nathan-strobl.org. For those who want to look without interacting with it, here are some screenshots of me using it to design glyphs for an upcoming audio project I am working on:
+
+<div class="image-grid">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/screenshot.png">
+	<div class="image-grid">
+		<img src="/media/glyphmaker/web/outcome-for-my-result/export-file-1.png">
+		<img src="/media/glyphmaker/web/outcome-for-my-result/export-file-2.png">
+	</div>
+</div>
+<div class="image-grid">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/bias-runaway-err.jpeg">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/overheated-err.jpeg">
+</div>
+<div class="image-grid">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/undervoltage-err.jpeg">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/undertemp-err.jpeg">
+</div>
+<div class="image-grid">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/wave-low.jpeg">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/wave-normal.jpeg">
+</div>
+<div class="image-grid">
+	<img src="/media/glyphmaker/web/outcome-for-my-result/wave-high.jpeg">
+</div>
 
 ---
 
