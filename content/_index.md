@@ -1,6 +1,6 @@
 +++
 title = "Hi, I'm Nathan!"
-date = 2024-09-17
+date = 2025-01-13
 layout = "single"
 draft = false
 +++

@@ -1,7 +1,7 @@
 +++
 title = 'Project Overview'
 date = 2024-09-17
-draft = true
+draft = false
 +++
 <div class="technologies">
 	<a title="Linux"><img src="/technologies-logos/linux.png"></a>

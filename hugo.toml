@@ -26,7 +26,8 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
         {Name = "GlyphMaker", URL = "/glyphmaker/", HasChildren = true, Limit = 5},
         {Name = "Self-Hosting", URL = "/selfhosting/", HasChildren = true, Limit = 5},
         {Name = "RIT Auxiliary Services Portal", URL = "/ritasp", HasChildren = true, Limit = 5},
-        {Name = "CartCockpit", URL = "/cartcockpit/", HasChildren = true, Limit = 5}
+        {Name = "CartCockpit", URL = "/cartcockpit/", HasChildren = true, Limit = 5},
+        {Name = "Outside of Software", URL = "/outsideofsoftware/", HasChildren = true, Limit = 5},
     ]
     email_url = "mailto:nas4635@rit.edu"
     github_url = "https://github.com/NathanStrobl"
