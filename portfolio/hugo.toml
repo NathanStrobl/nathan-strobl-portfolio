@@ -4,27 +4,21 @@ theme = "poison"
 paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
-# NOTE: If using Disqus as commenting engine, uncomment and configure this line
-# disqusShortname = "yourDisqusShortname"
-
 [params]
     brand = "Nathan Strobl"                      # name of your site - appears in the sidebar
-    # remote_brand_image = 'https://github.com/USERNAME.png' # path to a remote file
     brand_image = "/profile.jpeg"    # path to the image shown in the sidebar
     # description = "Description." # Used as default meta description if not specified in front matter
 	#dark_mode = false                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
-    # MENU PLACEHOLDER
     # Menu dict keys:
         # Name:         The name to display on the menu.
         # URL:          The directory relative to the content directory.
         # HasChildren:  If the directory's files should be listed.  Default is true.
         # Limit:        If the files should be listed, how many should be shown.
     menu = [
-        {Name = "ACA Mini Audio Amplifier", URL = "/acamini/", HasChildren = true, Limit = 5},
+        {Name = "Metrea Advanced Signals", URL = "/mas/", HasChildren = true, Limit = 5},
         {Name = "GlyphMaker", URL = "/glyphmaker/", HasChildren = true, Limit = 5},
-        {Name = "Self-Hosting", URL = "/selfhosting/", HasChildren = true, Limit = 5},
         {Name = "RIT Auxiliary Services Portal", URL = "/ritasp", HasChildren = true, Limit = 5},
         {Name = "CartCockpit", URL = "/cartcockpit/", HasChildren = true, Limit = 5},
         {Name = "Outside of Software", URL = "/outsideofsoftware/", HasChildren = true, Limit = 5},
