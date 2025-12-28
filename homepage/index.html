@@ -5,9 +5,8 @@
         <link rel="stylesheet" href="main.css">
         <script>
             window.onload = function() {
-                const daysDifference = Math.ceil((new Date('2026-01-15').getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24));
-                document.getElementById("countdown").innerHTML = `${daysDifference} days`;
-
+                // const daysDifference = Math.ceil((new Date('2026-01-15').getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24));
+                // document.getElementById("countdown").innerHTML = `${daysDifference} days`;
                 document.getElementById("copyright").innerHTML = `Copyright © ${new Date().getFullYear()} Nathan Strobl`;
             }
         </script>
@@ -22,20 +21,20 @@
         </div>
 
         <div class="content">
-            <div class="card">
+            <!-- <div class="card">
                 <h3>Summer (and probably also Fall) vacation!</h3>
                 <h4>Since I'm going to be busier than normal this summer (and fall), I'm giving my portfolio a vacation. It will be back online with new projects in approximately:</h4>
                 <h1 id="countdown"></h1>
                 <p style="font-style: italic;">Note: this timer is more for myself than anybody, so this will likely change wildly.</p>
-            </div>
-            <!-- <a class="card" title="Portfolio" href="https://portfolio.nathan-strobl.org">
+            </div> -->
+            <a class="card" title="Portfolio" href="https://portfolio.nathan-strobl.org">
                 <h3>Portfolio</h3>
                 <div>
                     <img src="assets/icons/portfolio.png">
                     <p>Click here to visit my portfolio, where I make posts about who I am, what I am looking for from my career, and the projects I am working on.</p>
                 </div>
             </a>
-            <a class="card" title="GlyphMaker" href="https://glyphmaker.nathan-strobl.org">
+            <!-- <a class="card" title="GlyphMaker" href="https://glyphmaker.nathan-strobl.org">
                 <h3>GlyphMaker</h3>
                 <div>
                     <img src="assets/icons/glyphmaker.png">

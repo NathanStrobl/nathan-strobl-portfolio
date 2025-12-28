@@ -1,6 +1,6 @@
 +++
 title = 'ANTS'
-date = 2025-12-23
+date = 2025-12-28
 draft = false
 +++
 <div class="technologies">
@@ -12,5 +12,5 @@ draft = false
     <a title="GitLab CI"><img src="/technologies-logos/gitlab.png"></a>
 </div>
 
-## TL;DR
-TL;DR
+## Coming Soon!
+A portfolio post about this project is coming soon.
