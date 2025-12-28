@@ -1,7 +1,7 @@
 +++
 title = 'Project Overview'
 date = 2024-01-23
-draft = false
+draft = true
 +++
 <div class="technologies">
 	<a title="JavaScript"><img src="/technologies-logos/javascript.png"></a>
