@@ -25,7 +25,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     ]
     email_url = "mailto:nas4635@rit.edu"
     github_url = "https://github.com/NathanStrobl"
-    resume_url = "/Nathan-Strobl-Resumé.pdf"
+    resume_url = "/Nathan-Strobl-Resume.pdf"
     linkedin_url = "https://www.linkedin.com/in/NathanStrobl"
     
 
