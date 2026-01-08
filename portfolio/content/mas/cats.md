@@ -33,7 +33,7 @@ was ready.
 
 > A screenshot of the BTS testing software.
 <br></br>
-<img src="/trolley.jpeg" style="max-width: 600px">
+<img src="/media/mas/cats/bts.png" style="max-width: 600px">
 
 With bugs and regressions accumulating in the radio’s firmware, it became clear both the testing software and process 
 involved in validating new releases needed improvement. The solution devised by the engineers at MAS was to make a new 
@@ -106,7 +106,10 @@ more in [this section of the post](#test-driven-development).
 ---
 
 ## Impacts of this Software
-[intro]
+Beyond its technical capabilities, CATS has had a positive impact on how radio firmware is developed, tested, and 
+validated at MAS. By integrating automated testing into both local development workflows and CI pipelines, CATS enables 
+radio firmware to be tested continuously, from early development all the way to distribution. The following sections 
+elaborate on the various ways CATS has influenced MAS’s radio firmware development process: 
 
 ### Test-Driven Development
 CATS’s biggest strength is enabling developers to adopt test-driven development practices for radio firmware. Using 

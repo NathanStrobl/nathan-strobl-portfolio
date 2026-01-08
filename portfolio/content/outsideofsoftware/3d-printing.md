@@ -1,8 +1,5 @@
 +++
 title = '3D Printing'
-date = 2024-09-20
+date = 2024-06-01
 draft = false
 +++
-
-## TL;DR
-TL;DR
