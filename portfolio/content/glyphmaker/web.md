@@ -69,7 +69,8 @@ With the new font paradigm and ability to assign names to glyphs in this version
 ---
 
 ## The Result
-If you have a use for this tool, or just simply want to take a look at it, it can be accessed by visiting https://glyphmaker.nathan-strobl.org. For those who want to look without interacting with it, here are some screenshots of me using it to design glyphs for an upcoming audio project I am working on:
+Here are some screenshots of me using this new tool to design glyphs for an upcoming hi-fi audio project I am working
+on:
 
 <div class="image-grid">
 	<img src="/media/glyphmaker/web/outcome-for-my-result/screenshot.png">

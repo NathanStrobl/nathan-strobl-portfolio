@@ -46,9 +46,7 @@ new system specifically tailored to this task.
 ---
 
 ## Overall Design and Operation
-intro
-
-### The ANTS Network
+### A Three-Layer System
 To coordinate and test multiple radios simultaneously, ANTS could not follow the same one-machine approach as CATS. In 
 addition to the need for multiple radios, all of which require their own host computer, the behaviors targeted by ANTS 
 require interaction with a separate piece of software (which I will refer to as M) that only runs on Windows; this is 
@@ -66,14 +64,47 @@ these constraints, ANTS is designed as a three-layer system, with each layer ser
   Network, implements some additional logic relevant to testing, and forwards messages to their appropriate 
   destinations. 
 
-[end]
+Shown below is a diagram that illustrates the way in which these layers will operate to form a cohesive testing
+environment; note that even though the testing layer and middleware are separate entities, they can be run on the same
+machine:
+
+<img src="/media/mas/ants-design-dev/ants-network-design.png">
 
 ### The ANTS API
-text
+The ANTS API provides a multitude of messages and objects for sending critical data relevant to testing; to keep 
+everything on the same page, the API is bundled into a Python package and shared between all layers of the ANTS testing 
+suite. When Pytest wants to send a message to a node, or vice versa, the sender constructs one of the Python message 
+objects provided by the ANTS API, pickles it into a serialized format using Python’s pickle package (say that three 
+times fast), and sends it via a WebSocket to the ANTS Middleware to be routed to its intended destination; after the 
+message arrives at the destination, it is then de-pickled and handled by the destination layer. While the approach of 
+sending serialized Python objects is considered somewhat insecure, as it can result in arbitrary code execution when 
+deserializing an object, I thought it was appropriate for this use case, for this software will strictly be operating 
+within MAS’s local network; furthermore, the benefits of being able to use these shared objects in exactly the same way 
+across all layers outweighs the downsides regarding security in this case. 
 
-### Procedure for Executing a Test Session
-text
+> UML diagrams that illustrate the full scope of messages and objects contained within the ANTS API:
+>
+> <img src="/media/mas/ants-design-dev/ants-api-uml.jpg">
+
+### Executing Test Sessions
+With its multi-layer architecture, beginning a test session in ANTS involves setting up and coordinating multiple 
+machines over the ANTS Network. The process begins by connecting all radio-connected node machines to the ANTS 
+Middleware, which verifies that each node has the correct versions of both the ANTS API and M software before allowing 
+it to join. Once all nodes are registered, a Pytest instance is launched and automatically connects to the Middleware; 
+after confirming that the Pytest instance is properly configured, the ANTS Middleware registers the instance internally 
+and temporarily blocks new node connections until the test session concludes. In the future, GitLab CI pipelines are 
+intended to handle much of this setup automatically, streamlining this process and providing developers with simplified 
+controls through GitLab’s interface.
+
+> A diagram that illustrates the steps of registering all devices in the ANTS Network and running a test session. 
+>
+> <img src="/media/mas/ants-design-dev/ants-session-connection-sequence.jpg" style="max-width: 600px">
 
 ---
 
 ## Next Steps
+With my second semester at MAS coming to an end, I am happy to report that the design and overall functionality of ANTS 
+is, for the most part, implemented and finalized. Due to the considerable effort required to get a multi-radio system to 
+a fully operational state, the ANTS project has been split up into two semesters worth of work. When I begin my third 
+and final internship semester at MAS, I will begin to focus on getting ANTS deployed to the machines that will use it, 
+as well as writing and executing the first batch of end-to-end tests for our radio’s firmware.  

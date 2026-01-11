@@ -26,6 +26,7 @@ CI pipeline development, embedded systems, and working to improving our team’s
 ---
 
 ## Background
+### The Need for CATS
 When I arrived at MAS, testing radio firmware relied heavily on BTS, an existing tool that required engineers to 
 manually run tests and monitor results. While BTS provided some assistance in the testing process, its workflow 
 still demanded a lot of human involvement, and the radio’s codebase would only get validated when a release candidate 
@@ -40,6 +41,13 @@ involved in validating new releases needed improvement. The solution devised by 
 integration testing suite to automate firmware validation, with the added benefit of enabling these tests to be run 
 automatically as part of merge requests through GitLab CI. My role was to get such software into a finished and deployed
  state, and that is what I set out to do with CATS.
+
+### The Testing Pyramid
+CATS also addresses a broader goal at MAS: ensuring comprehensive coverage across all layers of the radio firmware
+testing pyramid. Specifically, CATS aims to tackle the integration testing layer of this pyramid, as detailed by the
+diagram below:
+
+<img src="/media/mas/cats/testing-pyramid.png" style="max-width: 600px">
 
 ---
 

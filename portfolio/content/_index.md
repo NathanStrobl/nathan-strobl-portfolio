@@ -29,10 +29,11 @@ dedicate a good portion of my free time to learning as much as I can about all t
 My greatest passion lies in employing logic and critical thinking to tackle challenges of many sizes. While programming 
 serves as the prime example of this passion, this is not the only avenue in which I use a logical and analytical 
 approach; for example, I also enjoy testing these skills by tinkering with various electronic devices including 
-Arduinos, 3D printers, and hi-fi audio equipment. This isn’t to say that my interests are confined solely to logical 
-activities: in fact, I hold an equally strong passion for visual aesthetics and product design. When I get the itch to 
-express myself creatively in this manner, two of my primary outlets are developing intuitive and visually appealing user 
-interfaces for my software and designing physical products for 3D printing and sale. 
+Arduinos, 3D printers, and 
+hi-fi audio equipment, among other things. This isn’t to say that my interests are confined 
+solely to logical activities: in fact, I hold an equally strong passion for visual aesthetics and product design. When I 
+get the itch to express myself creatively in this manner, two of my primary outlets are developing intuitive and 
+visually appealing user interfaces for my software and designing physical products for 3D printing and sale. 
 > An example of something I have designed in my free time: a playing card tray which features a removable extension for
 > holding more cards, and which rolls around for easier passing between players. 
 <br></br>
@@ -40,8 +41,9 @@ interfaces for my software and designing physical products for 3D printing and s
 
 ### Outside of Programming
 When seeking a break from technology-centric hobbies, I often turn to the outdoors; I enjoy taking hikes while 
-practicing my photography, as well as walking or biking to places whenever possible. Socializing, engaging in 
-conversations, and exchanging ideas with colleagues and peers serves as another escape from technology.
+practicing my photography, as well as walking or biking to places whenever possible. 
+Socializing, engaging in conversations, and exchanging ideas with colleagues and peers serves as another escape from 
+technology.
 
 ---
 
